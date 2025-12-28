@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fatma Yasser — Portfolio</title>
+  <meta name="description" content="Fatma Yasser — Front-end & Mobile Developer (React, React Native). TA at Alexandria University. MSc student. Security & offline-first RN apps.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-blob" aria-hidden="true"></div>
+  <header class="container">
+    <nav class="nav">
+      <div class="logo">FY</div>
+      <div class="links">
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <h1>
+          Hi, I'm <span class="accent">Fatma Yasser</span>
+        </h1>
+        <p class="subtitle">
+          Front‑end & Mobile Developer focusing on React / React Native.
+          Part‑time Teaching Assistant at Alexandria University. MSc in Computer Science (in progress).
+        </p>
+        <div class="facts">
+          <span>React</span>
+          <span>React Native</span>
+          <span>Linux Systems</span>
+          <span>Performance</span>
+        </div>
+        <div class="cta"></div>
+        <div class="contact-inline">
+          <a href="mailto:fatemayasser963@gmail.com">fatemayasser963@gmail.com</a>
+          <span>·</span>
+          <a href="tel:+201554207962">+20 155 420 7962</a>
+          <span>·</span>
+          <a href="https://github.com/tmtm8976" target="_blank" rel="noopener">github.com/tmtm8976</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/in/fatma-yasser-68b784202" id="linkedin-link" target="_blank" rel="noopener">linkedin.com/in/fatma-yasser-68b784202</a>
+        </div>
+      </div>
+    </section>
+    <section id="panels" class="section">
+      <div class="tabs" role="tablist" aria-label="Sections">
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-experience" id="tab-experience">Experience</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-projects" id="tab-projects">Projects</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-skills" id="tab-skills">Skills</button>
+      </div>
+      <div class="panels">
+        <section id="panel-experience" class="panel show" role="tabpanel" aria-labelledby="tab-experience">
+          <div class="timeline compact">
+            <div class="item">
+              <div class="item-head"><strong>Front‑End / Mobile Developer</strong><span>Qurtoba Solutions (Mawared) · ~2 yrs</span></div>
+              <ul>
+                <li>Refactored legacy code to align with Chromium performance metrics (LCP, INP, CLS).</li>
+                <li>Modernized web & mobile UX for a large user base; improved responsiveness and stability.</li>
+                <li>Delivered features across React & React Native; collaborated on GraphQL/REST integration.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="item-head"><strong>Teaching Assistant (Part‑time)</strong><span>Alexandria University · Present</span></div>
+              <p>Labs, mentoring, and practical debugging workshops.</p>
+            </div>
+          </div>
+        </section>
+        <section id="panel-projects" class="panel" role="tabpanel" aria-labelledby="tab-projects">
+          <div class="cards">
+            <article class="card">
+              <h3>Secure RN App</h3>
+              <p>Biometric auth with OS keychain/keystore, protected flows.</p>
+              <ul>
+                <li>Face/Touch ID • Secure storage • Protected routes</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Offline‑First RN App</h3>
+              <p>Low‑network resilience: background fetch, queued mutations.</p>
+              <ul>
+                <li>Retry/backoff • Sync • Graceful offline UX</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+        <section id="panel-skills" class="panel" role="tabpanel" aria-labelledby="tab-skills">
+          <div class="skills">
+            <div>
+              <h4>Frontend</h4>
+              <p>React, Next.js, React Native, Redux, Redux‑Saga, MUI, Tailwind, SCSS</p>
+            </div>
+            <div>
+              <h4>Backend</h4>
+              <p>Node, Express, GraphQL, PostgreSQL, Docker, Laravel/PHP</p>
+            </div>
+            <div>
+              <h4>Languages</h4>
+              <p>JavaScript, TypeScript, C++, Java, Dart/Flutter</p>
+            </div>
+            <div>
+              <h4>Education</h4>
+              <p>MSc CS (in progress), B.Sc. SIM (GPA 3.83/4), ITI Front‑End (2023)</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        Prefer email for opportunities and collaborations. I’m always learning and open to new technologies.
+      </p>
+      <div class="contact-cards">
+        <a class="contact-card" href="mailto:fatemayasser963@gmail.com">
+          <span>Email</span>
+          <strong>fatemayasser963@gmail.com</strong>
+        </a>
+        <a class="contact-card" href="tel:+201554207962">
+          <span>Phone</span>
+          <strong>+20 155 420 7962</strong>
+        </a>
+        <a class="contact-card" href="https://github.com/tmtm8976" target="_blank" rel="noopener">
+          <span>GitHub</span>
+          <strong>github.com/tmtm8976</strong>
+        </a>
+        <a class="contact-card" id="linkedin-card" href="https://www.linkedin.com/in/fatma-yasser-68b784202" target="_blank" rel="noopener">
+          <span>LinkedIn</span>
+          <strong>https://www.linkedin.com/in/fatma-yasser-68b784202</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year"></span> Fatma Yasser</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
